@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a7b4b863;
+  }
+  img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
+  .heading-container {
+    background-color: #9103d8;
+    color: #ffffff;
+    font-size: 2.5em;
+    padding: 0.8em 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 50px 0 rgba(2, 0, 31, 0.3);
+    z-index: 1;
+  }
+  .heading-container h4 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  .options-container {
+    margin: 10em 0 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+  }
+  .option {
+    background-color: #d5d5d5;
+    border: none;
+    cursor: pointer;
+    padding: 0.8em 1.5em;
+    border-radius: 0.5em;
+    border: none;
+    text-transform: capitalize;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+  .news-card {
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    box-shadow: 0 0 15px rgba(85, 85, 85, 0.2);
+    margin: 1em 0;
+    border-radius: 15px;
+  }
+  .news-card img {
+    border-radius: 15px 15px 0 0;
+  }
+  .news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 15px;
+  }
+  .news-title {
+    font-weight: 600;
+    color: #0b0028;
+  }
+  .news-description {
+    color: #6f6f6f;
+    text-align: justify;
+    margin: 0.8em 0 1em 0;
+  }
+  .view-button {
+    position: relative;
+    text-decoration: none;
+    background-color: #cb202d;
+    color: #ffffff;
+    width: 7em;
+    text-align: center;
+    padding: 0.3em 0.2em;
+    border-radius: 5px;
+  }
+  .active {
+    background-color: #cb202d;
+    color: #ffffff;
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
