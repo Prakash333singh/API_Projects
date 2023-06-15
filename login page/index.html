@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form >
+    <div class="login">
+        <label for="uname"><b>UserName</b></label>
+        <input type="text" name="UserName" id="UserName" placeholder="Enter Username ">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <button id="btn" onclick="login()">Login</button>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn" value="Reset" onclick="clearFunc()">Reset</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
