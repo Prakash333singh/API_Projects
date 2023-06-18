@@ -15,24 +15,24 @@
 }
 #hour{
   height: 20%;
-  width: 2%;
-  top: 17%;
-  left: 49.5%;
+  width: 1.8%;
+  top: 28%;
+  left: 49.1%;
   /* display: none; */
   transform-origin: bottom;
 }
 #minute{
     height: 25%;
-  width: 1.5%;
-  top: 17%;
-  left: 49.5%;
+  width: 1.2%;
+  top: 23%;
+  left: 49.2%;
     /* display: none; */
     transform-origin: bottom;
 }
 #second{
     height: 30%;
   width: 1%;
-  top: 17%;
+  top: 18.5%;
   left: 49.5%;
 transform-origin: bottom;
   /* display: none; */

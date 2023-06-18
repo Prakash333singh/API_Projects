@@ -10,7 +10,7 @@ setInterval(()=>{
     srotation=6*stime;
 
 
-    hours.style.transform = `rotate(${hrotation}deg)`;
+    hour.style.transform = `rotate(${hrotation}deg)`;
     
     minute.style.transform = `rotate(${mrotation}deg)`;
     
